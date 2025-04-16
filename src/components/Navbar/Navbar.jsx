@@ -21,7 +21,7 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faBell}></FontAwesomeIcon>
                 </div>
                 <div>
-                    <img className='w-[2rem]' src="/src/assets/login.png" alt="" />
+                    <img className='w-[2rem]' src="/login.png" alt="" />
                 </div>
             </div>
         </div>
