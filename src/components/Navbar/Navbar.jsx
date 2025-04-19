@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center max-w-[90%] mx-auto mt-6'>
+        <nav className='flex justify-between items-center max-w-[75%] mx-auto mt-6'>
             <div>
                 <h1><span className='text-[#003EA4] text-3xl'>Auction</span><span className='text-[#FFD337] font-bold text-3xl'>Gallery</span></h1>
             </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <img className='w-[2rem]' src="/login.png" alt="" />
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 
