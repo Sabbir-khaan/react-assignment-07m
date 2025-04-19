@@ -38,7 +38,7 @@
     {
       "id": 5,
       "title": "Book",
-      "description": "First Edition'The Great Gatsby'by F. Scott Fitzgerald",
+      "description": "First Edition'The Great Gatsby' by F. Scott Fitzgerald",
       "currentBidPrice": 2850,
       "timeLeft": "2 Days left",
       "bidsCount": 8,

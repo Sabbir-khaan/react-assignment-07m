@@ -12,18 +12,18 @@ const Auctions = ({ favItems, setFavItems }) => {
 
   return (
     <div>
-      <div className="overflow-x-auto rounded-box border border-base-content/5 bg-base-100">
+      <div className="overflow-x-auto rounded-3xl border border-base-content/5 bg-base-100">
         <table className="table">
           {/* head */}
           <thead>
             <tr>
               <th>Items</th>
-              <th>Current Bid</th>
-              <th>Time Left</th>
-              <th>Bid Now</th>
+              <th className="text-center">Current Bid</th>
+              <th className="text-center">Time Left</th>
+              <th className="text-center ">Bid Now</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="text-lg">
             {auctions.map((auction) => (
               <Auction
                 auction={auction}

@@ -11,7 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <AuctionsSection />
-      <ToastContainer />
+      <ToastContainer autoClose="2000"/>
     </>
   );
 }

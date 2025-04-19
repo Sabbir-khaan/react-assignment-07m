@@ -42,18 +42,6 @@ const Auction = ({ auction, favItems, setFavItems }) => {
         </div>
       </td>
     </tr>
-    // <tr>
-    //   <td>Hart Hagerty</td>
-    //   <td>Desktop Support Technician</td>
-    //   <td>Purple</td>
-    //   <td>Purple</td>
-    // </tr>
-    // <tr>
-    //   <td>Brice Swyre</td>
-    //   <td>Tax Accountant</td>
-    //   <td>Red</td>
-    //   <td>Red</td>
-    // </tr>
   );
 };
 
