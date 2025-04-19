@@ -31,7 +31,7 @@ const AuctionsSection = () => {
           </p>
         </div>
         <div>
-          <div className="main-container gap-6 flex justify-between">
+          <div className="main-container gap-6 flex justify-between pb-[7.25rem]">
             <div className="left-container w-[70%]">
               <Auctions favItems={favItems} setFavItems={setFavItems} />
             </div>

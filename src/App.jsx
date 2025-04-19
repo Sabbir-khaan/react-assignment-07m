@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
 import AuctionsSection from "./components/Auctions/AuctionsSection";
 import { ToastContainer } from "react-toastify";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Banner></Banner>
       <AuctionsSection />
       <ToastContainer autoClose="2000"/>
+      <Footer></Footer>
     </>
   );
 }
