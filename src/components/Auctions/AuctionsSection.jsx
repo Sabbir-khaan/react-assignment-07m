@@ -21,7 +21,7 @@ const AuctionsSection = () => {
   };
 
   return (
-    <section className=" max-w-[75%] mx-auto my-20">
+    <section className=" max-w-[75%] mx-auto my-20 font-sora">
       <div>
         <h1 className="text-[2rem] text-[#0E2954]">Active Auctions</h1>
         <p className="text-lg opacity-90">
