@@ -8,20 +8,22 @@ const Footer = () => {
         <span className="text-[#FFD337] font-bold text-3xl">Gallery</span>
       </h1>
       <div className="space-x-5 text-[1.2rem] mt-3 font-sora">
-      <h4 className="inline">Bid.</h4>
-      <h4 className="inline">Win.</h4>
-      <h4 className="inline">Own.</h4>
+        <h4 className="inline">Bid.</h4>
+        <h4 className="inline">Win.</h4>
+        <h4 className="inline">Own.</h4>
       </div>
       <div>
-        <ul className="flex justify-center items-center space-x-5 font-poppins mt-3">
-            <li>Home</li>
-            <li>Auctions</li>
-            <li>Categories</li>
-            <li> How to works</li>
+        <ul className="flex justify-center items-center space-x-12 font-poppins mt-3">
+          <li>Home</li>
+          <li>Auctions</li>
+          <li>Categories</li>
+          <li> How to works</li>
         </ul>
       </div>
-      <div className="mt-5">
-        <h3 className="font-sora">&copy;2025 AuctionHub. All rights reserved.</h3>
+      <div className="mt-5 pb-[8.25rem]">
+        <h3 className="font-sora">
+          &copy; 2025 AuctionHub. All rights reserved.
+        </h3>
       </div>
     </div>
   );

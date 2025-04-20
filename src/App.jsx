@@ -12,7 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <AuctionsSection />
-      <ToastContainer autoClose="2000"/>
+      <ToastContainer autoClose="2000" />
       <Footer></Footer>
     </>
   );

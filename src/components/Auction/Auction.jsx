@@ -5,9 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { toast } from "react-toastify";
 
 const Auction = ({ auction, favItems, setFavItems }) => {
-  // const {auction}=props;
   const favItemsId = favItems?.map((item) => item.id);
-  console.log(favItemsId.includes(auction.id));
   return (
     <tr>
       <td>

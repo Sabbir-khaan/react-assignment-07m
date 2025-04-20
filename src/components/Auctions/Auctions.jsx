@@ -26,6 +26,7 @@ const Auctions = ({ favItems, setFavItems }) => {
           <tbody className="text-lg">
             {auctions.map((auction) => (
               <Auction
+                key={auction.id}
                 auction={auction}
                 favItems={favItems}
                 setFavItems={setFavItems}

@@ -7,7 +7,6 @@ import { toast } from "react-toastify";
 
 const AuctionsSection = () => {
   const [favItems, setFavItems] = useState([]);
-  console.log({ favItems });
 
   let totalPrice = 0;
 
@@ -61,24 +60,29 @@ const AuctionsSection = () => {
                     </div>
                   ) : (
                     favItems?.map((item) => (
-                      <div className="flex gap-x-6 mt-4 px-4 pb-3 border-b border-gray-100" key={item.id}>
+                      <div
+                        className="flex gap-x-6 mt-4 px-4 pb-3 border-b border-gray-100"
+                        key={item.id}
+                      >
                         <img className="w-18 h-18" src={item.image} alt="" />
                         <div className="flex justify-between w-full">
-                        <div>
-                          <p className="text-sm">{item.description}</p>
-                          <div className="flex gap-x-6 mt-4">
-                            <p>${item.currentBidPrice}</p>
-                            <p>Bids: {item.bidsCount}</p>
+                          <div>
+                            <p className="text-sm">{item.description}</p>
+                            <div className="flex gap-x-6 mt-4">
+                              <p>${item.currentBidPrice}</p>
+                              <p>Bids: {item.bidsCount}</p>
+                            </div>
                           </div>
-                        </div>
-                        <div>
-                          <button onClick={() => handleRemoveFavItems(item.id)}>
-                            <FontAwesomeIcon
-                              className="text-xl"
-                              icon={faXmark}
-                            ></FontAwesomeIcon>
-                          </button>
-                        </div>
+                          <div>
+                            <button
+                              onClick={() => handleRemoveFavItems(item.id)}
+                            >
+                              <FontAwesomeIcon
+                                className="text-xl"
+                                icon={faXmark}
+                              ></FontAwesomeIcon>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     ))
